@@ -1223,6 +1223,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+
+
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1245,7 +1247,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #PORTFOLIO, BLOG 
    */
 
-  .project-img,
+  .project-img,c
   .blog-banner-box { height: auto; }
 
 }
@@ -1709,7 +1711,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .navbar-list {
-    gap: 30px;
+    gap: 20px;
     padding: 0 20px;
   }
 
@@ -1801,17 +1803,18 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin-inline: auto;
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 25px;
+    gap: 20px;
+    padding: 14px;
   }
 
   .main-content {
-    min-width: 75%;
-    width: 75%;
+    min-width: 70%;
+    width: 70%;
     margin: 0;
   }
 
@@ -1886,4 +1889,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   line-height: 1.6;
   margin-left: 8px;
 }
+
+
+
+.cv-pdf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+iframe {
+  width: 100%;
+  max-width: 800px; /* Set the maximum width for larger screens */
+  height: 100%;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 768px) {
+  .cv-pdf {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  iframe {
+    max-width: none; /* Remove the max-width on smaller screens */
+  }
 }
