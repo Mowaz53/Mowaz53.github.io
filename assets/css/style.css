@@ -241,6 +241,7 @@ article.active {
 
 .article-title {
   position: relative;
+  /* padding-top: 25px; */
   padding-bottom: 7px;
 }
 
@@ -304,6 +305,11 @@ main {
   margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
+  
+}
+
+main-body{
+  padding: 120px;
 }
 
 
@@ -1678,6 +1684,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     box-shadow: var(--shadow-5);
   }
 
+  .article-title{
+    padding-top: 40px;
+  }
 
 
   /**
@@ -1796,6 +1805,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   article { min-height: 100%; }
 
+  
 
 
   /**
@@ -1809,7 +1819,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     justify-content: center;
     align-items: stretch;
     gap: 20px;
-    padding: 14px;
+    padding: 0% 5%;
+
   }
 
   .main-content {
