@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
   loadFragment('./components/about.html', 'about');
   loadFragment('./components/experience.html', 'experience');
   loadFragment('./components/education.html', 'education');
-  loadFragment('./components/research.html', 'research project');
+  loadFragment('./components/projects.html', 'research project');
+  loadFragment('./components/blogs.html', 'blogs');
   loadFragment('./components/cv.html', 'cv');
   loadFragment('./components/contact.html', 'contact');
 
