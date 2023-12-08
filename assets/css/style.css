@@ -2196,7 +2196,7 @@ textarea.form-input::-webkit-resizer {
   /* Adjust the height as needed */
 }
 
-embed {
+object {
   width: 100%;
   max-width: 800px;
   /* Set the maximum width for larger screens */
@@ -2210,7 +2210,7 @@ embed {
     /* Stack elements vertically on smaller screens */
   }
 
-  embed {
+  object {
     max-width: none;
     /* Remove the max-width on smaller screens */
   }
