@@ -921,6 +921,10 @@ main-body {
   line-height: 1.6;
 }
 
+.timeline-text-custom {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+}
 
 /**
  * skills 
