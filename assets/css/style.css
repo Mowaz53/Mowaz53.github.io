@@ -2084,6 +2084,7 @@ textarea.form-input::-webkit-resizer {
     padding: 0% 5%;
 
   }
+
   .main-body {
     padding: 0px 5%;
   }
@@ -2196,7 +2197,7 @@ textarea.form-input::-webkit-resizer {
   /* Adjust the height as needed */
 }
 
-object {
+iframe {
   width: 100%;
   max-width: 800px;
   /* Set the maximum width for larger screens */
@@ -2210,7 +2211,7 @@ object {
     /* Stack elements vertically on smaller screens */
   }
 
-  object {
+  iframe {
     max-width: none;
     /* Remove the max-width on smaller screens */
   }
