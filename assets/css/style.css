@@ -2220,3 +2220,6 @@ iframe {
     /* Remove the max-width on smaller screens */
   }
 }
+.info-content .name {
+    font-size: 19px !important;
+}
