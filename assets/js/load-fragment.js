@@ -17,14 +17,12 @@ function loadFragment(url, targetId) {
 
 // Usage example:
 document.addEventListener('DOMContentLoaded', function () {
-  // loadFragment('./components/sidebar.html', 'sidebar');
   loadFragment('./components/about.html', 'about');
-  loadFragment('./components/experience.html', 'experience');
+  loadFragment('./components/work-experience.html', 'work-experience'); // Update filename if needed
   loadFragment('./components/education.html', 'education');
-  loadFragment('./components/projects.html', 'research project');
-  loadFragment('./components/blogs.html', 'blogs');
+  loadFragment('./components/projects.html', 'projects'); // ✅ should be "projects"
+  loadFragment('./components/research-experience.html', 'research-experience'); // ✅ match ID
   loadFragment('./components/cv.html', 'cv');
-  loadFragment('./components/contact.html', 'contact');
 
 });
 
